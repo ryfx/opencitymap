@@ -1,3 +1,5 @@
+#collaborative project that aims to provide free and editable maps
+
 = Introduction =
 
 OpenStreetMap is a collaborative project that aims to provide free and editable maps.
