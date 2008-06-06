@@ -1,0 +1,14 @@
+#OpenStreetMap is a collaborative project that aims to provide free and editable maps.
+
+= Introduction =
+
+OpenStreetMap is a collaborative project that aims to provide free and editable maps.
+The maps are created using data from portable GPS devices and other free sources. Users can also create new routes or update existing ones using the given editing tools.
+
+The map data and rendered maps are licensed under [http://creativecommons.org/licenses/by-sa/2.0/ Creative Commons Attribution-ShareAlike 2.0 license]
+
+
+= Details =
+
+Check out there website for more information:
+http://www.openstreetmap.org/
