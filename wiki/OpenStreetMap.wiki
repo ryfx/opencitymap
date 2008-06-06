@@ -1,4 +1,4 @@
-#collaborative project that aims to provide free and editable maps
+#summary collaborative project that aims to provide free and editable maps
 
 = Introduction =
 
