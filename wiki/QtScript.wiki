@@ -14,11 +14,19 @@ function menuTrigger(obj)
 {
     // __qt_sender__ shows hich menu is triggered.
     // obj is the QAction of the menu that is triggered.
-    print("Menu \"" + __qt_sender__.title +"\" " + "pressed with item: " + obj.text);    
     
-    if (obj.text == "menuItem1")
+    switch (obj.text)
     {
-        // Do something
+        case "menuItem1":
+            //Do something
+            break;
+            
+        case "menuItem2":
+            //Do something else
+            break;
+          
+        default:
+            print("Menu \"" + __qt_sender__.title +"\" " + "pressed with item: " + obj.text);
     }
 }
    
