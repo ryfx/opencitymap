@@ -8,7 +8,7 @@ Here we explain how you can use the QtScript:
 
 
 == Using the gameMenu ==
-*You create a slot for the gameMenu calls like this:*
+*You can create a slot for the gameMenu like this:*
 {{{
 function menuTrigger(obj)
 {
@@ -24,15 +24,15 @@ function menuTrigger(obj)
    
 gameMenu["triggered"].connect(menuTrigger);
 }}}
-*You can add menu items like this:*
+*You can add gameMenu items like this:*
 {{{
 script.addMenuItem("newMenuItem");
 }}}
-*You can remove menu items like this:*
+*You can remove gameMenu items like this:*
 {{{
 script.removeMenuItem("oldMenuItem");
 }}}
-*You can clear the entire script menu like this:*
+*You can clear the entire gameMenu like this:*
 {{{
 script.clearMenu();
 }}}
