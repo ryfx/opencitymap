@@ -1,7 +1,7 @@
 #summary QtScript HOWTO
 
 = QtScript =
-What possibilities does QtScript has and how you can use it?
+What possibilities does QtScript has to offer you and how to use it?
  * Starting
  * Customizing the menu
  * !MessageBox
