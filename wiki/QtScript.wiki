@@ -4,8 +4,8 @@
 What possibilities does QtScript has and how you can use it?
  * Starting
  * Customizing the menu
- * MessageBox
- * ListView
+ * !MessageBox
+ * !ListView
  * Higlighting Nodes
  * Using the mapModel (not yet written)
 
@@ -15,6 +15,7 @@ The script is called when you select "start script" in the menu.
 
 == Customizing the menu ==
 QtScript has its own menu which can be customized at wish.
+
 *You can create a slot for the gameMenu like this:*
 {{{
 function menuTrigger(obj)
@@ -53,6 +54,8 @@ script.clearMenu();
 }}}
 
 == Higlighting Nodes ==
+Hightlighting a Node means displaying a small (red) arrow on the map in the direction of that Node.
+The distance will also be showed.
 {{{
 script.addHighlightNode(NodeNr);
 highlightnode["destinationReach"].connect(destinationReached);
@@ -63,14 +66,14 @@ function destinationReached(node)
 }
 }}}
 
-== MessageBox ==
+== !MessageBox ==
 Sending a messageBox is the easiest thing you can do from script. 
 {{{
 script.showMessage("Title", "Message ");
 }}}
 
 
-== ListView ==
+== !ListView ==
 {{{
 var listViewArray = new Array("Item1", "Item2", "Item3");
 script.dispListView(listViewArray); 
