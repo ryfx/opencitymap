@@ -1,13 +1,20 @@
 #summary QtScript HOWTO
 
 = QtScript =
-Here we explain how you can use the QtScript:
- * How to start (not yet written)
- * Using the gameMenu
+What possibilities does QtScript has and how you can use it?
+ * Starting
+ * Customizing the menu
+ * MessageBox
+ * ListView
+ * Higlighting Nodes
  * Using the mapModel (not yet written)
 
+== Starting ==
+Pretty easy just write some QtScript in the main.qs file.
+The script is called when you select "start script" in the menu.
 
-== Using the gameMenu ==
+== Customizing the menu ==
+QtScript has its own menu which can be customized at wish.
 *You can create a slot for the gameMenu like this:*
 {{{
 function menuTrigger(obj)
@@ -43,4 +50,43 @@ script.removeMenuItem("oldMenuItem");
 *You can clear the entire gameMenu like this:*
 {{{
 script.clearMenu();
+}}}
+
+== Higlighting Nodes ==
+{{{
+script.addHighlightNode(NodeNr);
+highlightnode["destinationReach"].connect(destinationReached);
+
+function destinationReached(node)
+{
+    //Do something
+}
+}}}
+
+== MessageBox ==
+Sending a messageBox is the easiest thing you can do from script. 
+{{{
+script.showMessage("Title", "Message ");
+}}}
+
+
+== ListView ==
+{{{
+var listViewArray = new Array("Item1", "Item2", "Item3");
+script.dispListView(listViewArray); 
+listViewMenu["triggered"].connect(listViewTrigger);
+
+function listViewMenuTrigger()
+{
+    listViewSelected = script.listViewSelectedIndexes();
+    for (selected in listViewSelected)
+    { 
+        if (listViewSelected[selected])
+        {
+            //Do something with selected Item
+        }        
+    }
+    script.clearListView();
+    listViewMenu["triggered"].disconnect(listViewTrigger);
+}
 }}}
