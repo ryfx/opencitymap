@@ -1,0 +1,113 @@
+<ui version="4.0" >
+ <class>TagDialog</class>
+ <widget class="QDialog" name="TagDialog" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>208</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Tag</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <widget class="QGroupBox" name="groupBox_3" >
+     <property name="title" >
+      <string>name</string>
+     </property>
+     <layout class="QGridLayout" >
+      <item row="0" column="0" >
+       <widget class="QLineEdit" name="inputName" />
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox" >
+     <property name="title" >
+      <string>Type</string>
+     </property>
+     <layout class="QHBoxLayout" >
+      <item>
+       <widget class="QComboBox" name="comboBoxContainer" />
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBoxFeature" />
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2" >
+     <property name="title" >
+      <string/>
+     </property>
+     <widget class="QPushButton" name="pushButton_2" >
+      <property name="geometry" >
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>99</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>Cancel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonApply" >
+      <property name="geometry" >
+       <rect>
+        <x>120</x>
+        <y>11</y>
+        <width>99</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text" >
+       <string>Apply</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>TagDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>62</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>35</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonApply</sender>
+   <signal>clicked()</signal>
+   <receiver>TagDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>191</x>
+     <y>180</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>218</x>
+     <y>315</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
