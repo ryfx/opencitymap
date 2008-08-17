@@ -1,0 +1,6 @@
+QPEDIR=/opt/Qtopia/SDK/4.3.2/x86
+exists($$QPEDIR/src/build/trace_on):message(.qmake.cache)
+PROCESSED_PRI+=qmake_cache
+PROJECT_ROOT=/home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test
+TREE_ROOT=/home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test
+include(/home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test/tree_config.pri)

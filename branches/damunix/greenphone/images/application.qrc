@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>bank.png</file>
+    <file>bar.png</file>
+    <file>biergarten.png</file>
+    <file>bus_stop.png</file>
+    <file>cafe.png</file>
+    <file>church.png</file>
+    <file>cinema.png</file>
+    <file>college.png</file>
+    <file>firebrigade.png</file>
+    <file>hospital.png</file>
+    <file>nightclub.png</file>
+    <file>parking.png</file>
+    <file>police.png</file>
+    <file>post_box.png</file>
+    <file>post_office.png</file>
+    <file>pub.png</file>
+    <file>recycling.png</file>
+    <file>restaurant.png</file>
+    <file>stationnew.png</file>
+    <file>telephone.png</file>
+    <file>toilets.png</file>
+    <file>traffic-light.png</file>
+    <file>marker2.png</file>
+    <file>icon.jpg</file>
+</qresource>
+</RCC>
