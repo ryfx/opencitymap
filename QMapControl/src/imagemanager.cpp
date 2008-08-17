@@ -119,7 +119,7 @@ namespace qmapcontrol
 
         QFile file("/mnt/documents/cache/tile"+tileName);
         if (!file.open(QIODevice::ReadWrite )){
-            qDebug()<<"error reading file";
+            qDebug()<<"error reading file "<< file.fileName();
             return false;
         }
          QByteArray bytes;

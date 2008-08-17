@@ -71,9 +71,10 @@ namespace qmapcontrol
 			 * @param mousemode the way mouseevents are handled
 		 */
 			MapControl(QSize size, MouseMode mousemode = Panning);
-		
+		    MapControl(QWidget* parent);
 			~MapControl();
 		
+            void init();
 		//! adds a layer
 		/*!
 			 * If multiple layers are added, they are painted in the added order.
@@ -180,6 +181,9 @@ namespace qmapcontrol
 		 */
 			MapControl::MouseMode mouseMode();
 		
+		//! catch the event signal to initialise class
+			virtual void showEvent ( QShowEvent * event ) ;
+			
 			int rotation;
 
             HighLightNode* m_highLightNode;
@@ -244,6 +248,9 @@ namespace qmapcontrol
 		 */
 			void geometryClicked(Geometry* geometry, QPoint coord_px);
 		
+		//! This signal is emmited when the widget is shown for the first time
+			void mcReady();
+			
 		public slots:
 		//! zooms in one step
 			void zoomIn();

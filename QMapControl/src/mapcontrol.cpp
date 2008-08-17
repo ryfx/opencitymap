@@ -38,12 +38,31 @@ namespace qmapcontrol
         m_highLightNodeSet = false;
         m_loadingFlag = false;
 	}
-
+    MapControl::MapControl(QWidget* parent)
+    : QWidget(parent)
+    {
+        mymousemode = Panning;
+        mousepressed = false;
+        m_highLightNodeSet = false;
+        m_loadingFlag = false;
+        
+    
+    }
 	MapControl::~MapControl()
 	{
 		delete layermanager;	
 	}
 
+    void MapControl::init()
+    {
+        size=QSize(QWidget::size());
+        qDebug()<< "is visible ?"<< isVisible();
+        qDebug() << "size :" << size;
+        qDebug() << "geometry :" << QWidget::geometry();
+        qDebug() << "sizeHint:" << QWidget::sizeHint();
+
+		
+    }
 	QPointF	MapControl::currentCoordinate() const
 	{
 		return layermanager->currentCoordinate();
@@ -383,5 +402,29 @@ namespace qmapcontrol
 	void MapControl::stopFollowing(Geometry* geom)
 	{
 		geom->disconnect(SIGNAL(positionChanged(Geometry*)));
+	}
+	
+	void MapControl::showEvent ( QShowEvent * event ) 
+	{
+		QWidget::showEvent(event);
+		qDebug("Show event !");
+		//TODO : check if this is really the first one
+		size=QSize(QWidget::size());
+		qDebug()<< "is visible ?"<< isVisible();
+		qDebug() << "size :" << size;
+		qDebug() << "geometry :" << QWidget::geometry();
+		qDebug() << "sizeHint:" << QWidget::sizeHint();
+		connect(ImageManager::instance(), SIGNAL(imageReceived()),
+				this, SLOT(updateRequestNew()));
+    
+		connect(ImageManager::instance(), SIGNAL(loadingFinished()),
+				this, SLOT(loadingFinished()));
+		
+		layermanager = new LayerManager(this, size);
+		screen_middle = QPoint(size.width()/2, size.height()/2);
+    
+		this->setMaximumSize(size.width()+1, size.height()+1);
+		emit mcReady();
+        
 	}
 }
