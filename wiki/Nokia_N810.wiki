@@ -1,4 +1,4 @@
-#This page shows how well the project advances for the Nokia N810
+#summary This page shows how well the project advances for the Nokia N810
 
 = The project has been cleaned! =
 Yep, this page is dedicated to the N810 and its current state!
