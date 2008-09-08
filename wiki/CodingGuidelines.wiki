@@ -8,7 +8,7 @@
     # Tabs can have different lengths on different machines
 }}}
 
-* Member variables must begin with m_
+* Member variables must begin with m_ (underscore)
 {{{
 class MapModel
 {
