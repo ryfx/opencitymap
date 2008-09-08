@@ -16,10 +16,10 @@ Its build for Qt/x11 this time, not Qtopia!
 == Short term Features+fixes ==
 Here I write some changes I will add shortly (this page is actually more for myself!
 
-  * MapControl window is as big as mainwindow (needfix)
+  * MapControl window is as big as mainwindow (fixed)
   * OCM's configuration settings should be stored somewhere and it should be possible to change theM (like where the tiles are stored)
   * Dubbel klick will zoom.
-  * Minimum and maximum zoom levels!
+  * Minimum and maximum zoom levels! (fixed)
 
 == Slighty longer term Features+fixes ==
   * Reïmplent the good old features on a clean way from the Greenphone source code.
