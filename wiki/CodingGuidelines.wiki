@@ -1,4 +1,4 @@
-#summary Developing for Open !CityMap? See the coding guidelines first!
+#summary Developing for Open CityMap? See the coding guidelines first!
 #labels coding,guidelines
 
 = Coding guidelines =
