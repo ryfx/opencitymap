@@ -1,5 +1,5 @@
+#summary Preliminary roadmap for OpenCityMap
 #labels Phase-Requirements
-#Preliminary roadmap for OpenCityMap
 
 = Pre 1.0 - Feature Based Release Plan =
 == 0.1 - Initial Development Release ==
