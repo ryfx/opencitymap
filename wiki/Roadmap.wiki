@@ -3,7 +3,7 @@
 
 = Pre 1.0 - Feature Based Release Plan =
 == 0.1 - Initial Development Release ==
- * QMapControl for display of OSM Tiles
+ * QMapControl 0.9.5 for display of OSM Tiles
 
 == 0.2 - OSM data model ==
  * MapModel created from a local OSM xml
