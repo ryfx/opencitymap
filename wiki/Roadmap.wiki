@@ -15,7 +15,7 @@
 
 == 0.4 - Scripting and GPS ==
  * QtScript support with initial OCM API
- * gpsd or other GPS-lib support
+ * gpsd or other libgps support
 
 == 0.5 - Memory optimization ==
  * Spacial garbage collection in MapModel
