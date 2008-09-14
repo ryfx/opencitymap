@@ -1,0 +1,27 @@
+CONFIG=qt qtopia_main no_singleexec no_quicklaunch no_tr app qtopia part_of_qtopia
+PROJECT_TYPE=qtopia app
+QTOPIA_DEPENDS=libraries/qtopiacore/* libraries/qtopiabase libraries/qtopia
+TARGET=gpsmap
+INCLUDEPATH=src/
+DEFINES=PATH_MAX=255
+LIBS=-lgps
+FORMS=gpsmapbase.ui
+HEADERS=gpsmap.h src/gpsGen.h src/libgpsconnector.h
+SOURCES=main.cpp gpsmap.cpp src/gps.cpp src/libgpsconnector.cpp
+desktop.files=gpsmap.desktop
+desktop.path=/apps/Applications
+desktop.hint=desktop
+pics.files=pics/*
+pics.path=/pics/gpsmap
+pics.hint=pics
+help.source=help
+help.files=gpsMap.html
+help.hint=help
+INSTALLS=desktop pics help
+pkg.name=gpsMap
+pkg.desc=gpsMap Application
+pkg.version=1.0.0-1
+pkg.maintainer=Damien RANNOU,,, damunix@gmail.com
+pkg.license=GPL
+pkg.domain=window
+TEMPLATE=app

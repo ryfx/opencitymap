@@ -1,40 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!DOCTYPE KDevPrjSession>
 <KDevPrjSession>
- <DocsAndViews NumberOfDocuments="11" >
-  <Doc0 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test/cityMap/citymap.cpp" >
-   <View0 Encoding="" line="75" Type="Source" />
+ <DocsAndViews NumberOfDocuments="4" >
+  <Doc0 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap/branches/damunix/openmoko/cityMap/citymap.cpp" >
+   <View0 Encoding="" line="0" Type="Source" />
   </Doc0>
-  <Doc1 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test/cityMap/citymap.h" >
-   <View0 Encoding="" Type="Source" />
+  <Doc1 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap/branches/damunix/gpsMap/src/gpsmap.h" >
+   <View0 Encoding="" line="0" Type="Source" />
   </Doc1>
-  <Doc2 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/QMapControl/src/mapcontrol.cpp" >
-   <View0 Encoding="" Type="Source" />
+  <Doc2 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap/branches/damunix/gpsMap/src/gpsmap.cpp" >
+   <View0 Encoding="" line="0" Type="Source" />
   </Doc2>
-  <Doc3 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/QMapControl/src/mapcontrol.h" >
-   <View0 Encoding="" Type="Source" />
+  <Doc3 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap/branches/damunix/gpsMap/src/gps.h" >
+   <View0 Encoding="" line="54" Type="Source" />
   </Doc3>
-  <Doc4 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/QMapControl/src/geometrylayer.h" >
-   <View0 Encoding="" Type="Source" />
-  </Doc4>
-  <Doc5 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/QMapControl/src/gps_position.h" >
-   <View0 Encoding="" Type="Source" />
-  </Doc5>
-  <Doc6 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/gpsMap/src/gps.h" >
-   <View0 Encoding="" Type="Source" />
-  </Doc6>
-  <Doc7 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/gpsMap/src/gps.cpp" >
-   <View0 Encoding="" Type="Source" />
-  </Doc7>
-  <Doc8 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/gpsMap/src/gpsmap.cpp" >
-   <View0 Encoding="" Type="Source" />
-  </Doc8>
-  <Doc9 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/mapmodel/osm.h" >
-   <View0 Encoding="" Type="Source" />
-  </Doc9>
-  <Doc10 NumberOfViews="1" URL="file:///home/damunix/dev/qtopia/opencitymap-read-only/mapmodel/osm.cpp" >
-   <View0 Encoding="" line="269" Type="Source" />
-  </Doc10>
  </DocsAndViews>
  <pluginList>
   <kdevdebugger>

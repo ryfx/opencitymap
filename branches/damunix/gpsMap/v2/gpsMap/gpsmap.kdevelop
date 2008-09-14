@@ -2,7 +2,7 @@
 <kdevelop>
   <general>
     <author>Damien RANNOU,,,</author>
-    <email>damunix@damunix-laptop</email>
+    <email>damunix@gmail.com</email>
     <version>0.1</version>
     <projectmanagement>KDevTrollProject</projectmanagement>
     <primarylanguage>C++</primarylanguage>
@@ -10,7 +10,7 @@
       <keyword>Qt</keyword>
     </keywords>
     <ignoreparts/>
-    <projectname>cityMap</projectname>
+    <projectname>gpsMap</projectname>
   </general>
   <kdevfileview>
     <groups>
@@ -84,7 +84,7 @@
       <activedir></activedir>
     </general>
     <run>
-      <mainprogram>./citymap</mainprogram>
+      <mainprogram>./gpsmap</mainprogram>
       <programargs>-qws</programargs>
       <envvars>
         <envvar value="/opt/Qtopia/SDK/4.2.4/x86" name="QPEDIR" />
@@ -148,7 +148,7 @@
   <kdevdocumentation>
     <projectdoc>
       <docsystem>Doxygen Documentation Collection</docsystem>
-      <docurl>citymap.tag</docurl>
+      <docurl>gpsmap.tag</docurl>
     </projectdoc>
   </kdevdocumentation>
   <kdevcppsupport>
@@ -188,42 +188,18 @@
     </codecompletion>
   </kdevcppsupport>
   <substmap>
-    <APPNAME>cityMap</APPNAME>
-    <APPNAMELC>citymap</APPNAMELC>
-    <APPNAMESC>CityMap</APPNAMESC>
-    <APPNAMEUC>CITYMAP</APPNAMEUC>
+    <APPNAME>gpsMap</APPNAME>
+    <APPNAMELC>gpsmap</APPNAMELC>
+    <APPNAMESC>GpsMap</APPNAMESC>
+    <APPNAMEUC>GPSMAP</APPNAMEUC>
     <AUTHOR>Damien RANNOU,,,</AUTHOR>
     <DESIGNER>/opt/Qtopia/SDK/4.2.4/x86/bin/designer</DESIGNER>
-    <EMAIL>damunix@damunix-laptop</EMAIL>
+    <EMAIL>damunix@gmail.com</EMAIL>
     <LICENSE>GPL</LICENSE>
     <LICENSEFILE>COPYING</LICENSEFILE>
     <QMAKE>/opt/Qtopia/SDK/4.2.4/x86/bin/qtopiamake</QMAKE>
     <VERSION>0.1</VERSION>
     <YEAR>2008</YEAR>
-    <dest>/home/damunix/dev/qtopia/opencitymap-read-only/openmoko-test/cityMap</dest>
+    <dest>/home/damunix/dev/qtopia/opencitymap/branches/damunix/gpsMap/src/v2/gpsMap</dest>
   </substmap>
-  <dist>
-    <custom>false</custom>
-    <bzip>false</bzip>
-    <archname/>
-    <appname>cityMap</appname>
-    <version>0.1</version>
-    <release/>
-    <vendor/>
-    <licence>GPL</licence>
-    <summary/>
-    <group/>
-    <packager/>
-    <description/>
-    <changelog/>
-    <devpackage>false</devpackage>
-    <docspackage>false</docspackage>
-    <appicon>false</appicon>
-    <arch>0</arch>
-    <genHTML>false</genHTML>
-    <useRPM>false</useRPM>
-    <ftpkde>false</ftpkde>
-    <appskde>false</appskde>
-    <url/>
-  </dist>
 </kdevelop>
